@@ -1,5 +1,7 @@
-global.ExtendableError = require('./ExtendableError.js');
-global.InputError = require('./InputError.js');
-global.NotImplementedError = require('./NotImplementedError.js');
-global.NotReadyError = require('./NotReadyError.js');
-global.CodedError = require('./CodedError.js');
+module.exports = {
+  ExtendableError: require('./ExtendableError.js'),
+  InputError: require('./InputError.js'),
+  NotImplementedError: require('./NotImplementedError.js'),
+  NotReadyError: require('./NotReadyError.js'),
+  CodedError: require('./CodedError.js'),
+};
